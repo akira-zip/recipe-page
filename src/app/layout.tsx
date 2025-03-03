@@ -2,8 +2,7 @@ import { Metadata } from "next"
 import '@/app/globals.css'
 
 export const metadata: Metadata = {
-  title: "Recipe page",
-  icons: '../../public/images/favicon.png'
+  title: "Recipe page"
 }
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
